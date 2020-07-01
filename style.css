@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+#header{
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 350px;
+
+}
+.left-header{
+    width: 55%;
+    float: left;
+    padding-top: 100px;
+}
+.right-header{
+    width: 30%;
+    float: left;
+    padding-top: 100px;
+}
+.right-header img{
+    width: 100%;
+}
+.left-header h1{
+    margin-left: 22%;
+    padding-left: 20%;
+    padding-top: 13%;
+}
+.left-header h2{
+    font-size: 30px;
+    margin-left: 22%;
+    padding-left: 20%;
+    line-height: 5px;
+    color: #EC4C7A;
+    font-weight: 900;
+}
+.left-header p{
+    margin-left: 22%;
+    padding-left: 20%;
+    color: dimgray;
+}
+.left-header .header-btn{
+    text-decoration: none;
+    background-image: linear-gradient(40deg, hotpink, #EC4C7A);
+    margin-left: 42%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+/* Biography area */
+#Biography-area{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.left-bio-area{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    padding-top: 100px;
+}
+.left-bio-area img{
+    width: 100%;
+}
+.right-bio-area{
+    width: 50%;
+    float: left;
+    padding-top: 180px;
+}
+.right-bio-area h2{
+    margin-left: 30%;
+}
+.right-bio-area p{
+    margin-left: 30%;
+    color: dimgray;
+}
+.right-bio-area .header-btn{
+    text-decoration: none;
+    background-image: linear-gradient(40deg, hotpink, #EC4C7A);
+    margin-left: 30%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+/*latest work section */
+
+#latest-work-sec{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latest-work-sec h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.images{
+    padding: 100px 100px;
+}
+.images img{
+    width: 360px;
+    height: 250px;
+    padding-left: 55px;
+}
+
+/*client area and footer section*/
+
+#client-area{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 400px;
+}
+#client-area h2{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+#client-area h3{
+    text-align: center;
+    color: #414649;
+    line-height: 2px;
+}
+#client-area h4{
+    text-align: center;
+    color: dimgray;
+}
+#client-area p{
+    text-align: center;
+    color: dimgray;
+}
+.email-section{
+    text-align: center;
+    background-color: #EC4E8B;
+    color: white;
+    width: 50%;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 110px;
+    border-radius: 15px;
+    
+}
+/*About section*/
+#About h1{
+    font-size: 40px;
+}
+.awesome-intiduce-sec {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    margin-left: 200px;
+    float: left;
+}
+
+.intiduce-contant{
+    width: 30%;
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+#About h2{
+    text-align: center;
+    color: chocolate;
+}
+#About p{
+    padding: 0px 50px 50px 50px;
+    text-align: justify;
+}
+.intiduce-contant2{
+    width: 30%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+/*footer section*/
+footer p{
+    text-align: center;
+    padding: 50px;
+    color: darkgray;
+}
